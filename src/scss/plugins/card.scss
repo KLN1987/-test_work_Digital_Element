@@ -1,0 +1,90 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  position: relative;
+  width: 380px;
+}
+
+.card-left {
+  margin-left: 70px;
+}
+
+.card-right {
+  margin-bottom: 100px;
+}
+
+.card__img {
+  margin-bottom: 56px;
+}
+
+.card__description {
+  width: 285px;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  margin-bottom: 16px;
+}
+
+.card__paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+
+.card__links {
+  display: flex;
+  align-items: center;
+}
+
+.card__svg,
+.card__arrow {
+  width: 16px;
+  height: 16px;
+  fill: #5A98D0;
+}
+
+.card__link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  margin-right: 28px;
+}
+
+
+.card-right .card__img {
+  position: absolute;
+  top: -30px;
+}
+
+.card-right .card__description {
+  margin-top: 188px;
+}
+
+@media (max-width: 1000px) {
+  .card-left {
+    margin: 0;
+  }
+
+  .card {
+    padding: 30px;
+    width: 300px;
+  }
+
+  .card__description {
+    width: 200px;
+  }
+}
